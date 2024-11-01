@@ -1,0 +1,90 @@
+/* Navigation bar links */
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text in navigation bar */
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333; /* Dark background for navbar */
+    padding: 10px 20px;
+}
+
+/* Navigation bar brand */
+.navbar-brand {
+    color: white; /* White text for brand */
+}
+
+/* Login and Sign Up Form Container */
+.form-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* Set text color to white */
+}
+
+.form-container h2 {
+    text-align: center;
+    color: white; /* White text for heading */
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white; /* White text for labels */
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black; /* Black text inside input fields */
+    background-color: white; /* White background for input fields */
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green background for buttons */
+    color: white; /* White text for button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Specific styles for links in the forms */
+.form-container a {
+    color: #007bff; /* Light blue for links to contrast with background */
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Ensure color is reset for other elements (optional) */
+body {
+    color: rgb(255, 252, 252); /* Default color for other text on the page */
+    font-family: Arial, sans-serif; /* Set a default font for the page */
+}
+
+/* Navbar collapse button */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, .1); /* Light border for toggle */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

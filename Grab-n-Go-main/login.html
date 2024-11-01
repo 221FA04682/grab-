@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Add similar styles as signup form */
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login to GRAB AND GO</h2>
+        <form id="login-form" onsubmit="handleLogin(event)">
+            <input type="email" placeholder="Email ID" id="login-email" required>
+            <input type="password" placeholder="Password" id="login-password" required>
+            <button type="submit">Log In</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+
+    <script>
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            const response = await fetch('http://localhost:5000/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password }),
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                alert(data.message);
+                // Store token in local storage or cookie
+                localStorage.setItem('token', data.token);
+                // Redirect or perform any other action
+            } else {
+                const errorData = await response.json();
+                alert(errorData.message);
+            }
+        }
+    </script>
+</body>
+</html>
