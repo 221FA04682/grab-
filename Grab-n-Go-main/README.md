@@ -4,6 +4,8 @@ Welcome to Grab n Go! This is a revolutionary food ordering website designed to 
 
 ## Introduction
 
+Developed By Naresh Kumar student of Vignan Unbiversity *(221FA04682)*
+
 ### Overview
 
 Grab n Go offers a user-friendly interface that simplifies the entire food ordering process, making it effortless for students to select and purchase their desired meals. The platform's comprehensive menu organizes food items into intuitive categories and subcategories, ensuring easy navigation and quick access to favorite dishes. Additionally, Grab n Go integrates WhatsApp authentication, providing a secure and convenient login method, along with a chat feature for seamless communication between users and canteen staff.
@@ -15,9 +17,7 @@ Grab n Go offers a user-friendly interface that simplifies the entire food order
 - **Community Engagement:** The platform fosters a sense of community among users by encouraging them to share their dining experiences through reviews and ratings.
 - **Seamless and Efficient Service:** Designed with user convenience in mind, Grab n Go prioritizes a seamless and time-saving experience with features like WhatsApp authentication and chat support.
 
-## Deployment
 
-The Grab n Go website is deployed and accessible at [https://bdeekshith066.github.io/Grab-n-Go/](https://bdeekshith066.github.io/Grab-n-Go/).
 
 
 ## Usage
@@ -53,9 +53,7 @@ That's it! You should now be able to access and use Grab n Go on your local syst
 
 Contributions to Grab n Go are welcome! We appreciate any improvements or features you may add. Simply open a pull request, and we'll review it as soon as possible. Thank you for your interest in contributing!
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 
 
